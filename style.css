@@ -4,12 +4,15 @@
   box-sizing: border-box;
 }
 
+:root {
+}
+
 /* BURGER MENU */
 
 /* Style the navigation menu */
 nav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #cf5d5d;
   position: relative;
 }
 
@@ -29,11 +32,15 @@ nav a {
 
 /* Style the hamburger menu */
 nav a.icon {
-  background: black;
+  background: white;
   display: block;
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.fa {
+  color: white;
 }
 
 /* Add a grey background color on mouse-over */
