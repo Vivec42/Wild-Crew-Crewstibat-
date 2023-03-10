@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+header {
+  background-color: #f76c6c;
+}
+
+.actu {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+.actu h2 {
+  margin-bottom: 2rem;
+}
+main {
+  width: 100%;
+  padding: 16px;
+  margin-left: 36px;
+}
+
+.imgWCS {
+  max-width: 60%;
+  height: auto;
+}
