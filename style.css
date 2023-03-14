@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 :root {
 }
@@ -184,3 +185,31 @@ nav a:hover {
 }
 
 /* CONTACT */
+=======
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+header {
+  background-color: #f76c6c;
+}
+
+.actu {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+.actu h2 {
+  margin-bottom: 2rem;
+}
+main {
+  width: 100%;
+  padding: 16px;
+  margin-left: 36px;
+}
+
+.imgWCS {
+  max-width: 60%;
+  height: auto;
+}
+/*nouveau css*/
+>>>>>>> dd35cfb9585d6cb9c550dd3e9b4cdf91ff9e1f79
