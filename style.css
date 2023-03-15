@@ -116,6 +116,10 @@ nav a:hover {
   margin-bottom: 5px;
 }
 
+#leS {
+
+}
+
 .form-control input {
   border: 2px solid var(--color-second);
   border-radius: 4px;

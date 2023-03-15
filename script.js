@@ -97,7 +97,11 @@ function setSucces(elem) {
     let message = "Email pas valide";
     setError(email,message);
   }
-}
+    else {
+      setSucces(email)
+    }
+  
+
 
 function setError(elem, message) {
   const formcontrol = elem.parentElement;
@@ -124,4 +128,59 @@ function email_verify(email) {
   return /^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/.test(email);
 
 }
+if (numbervalue === "") {
+  let message = "Votre Numero ne peut être vide";
+  setError(number, message);
+} else {
+  setSucces(number);
+}
 
+
+function setError(elem, message) {
+const formcontrol = elem.parentElement;
+const small = formcontrol.querySelector("small");
+/*small.innerHTML = "";*/
+
+small.innerText = message;
+
+formcontrol.className = "form-control error";
+}
+
+function setSucces(elem) {
+const formcontrol = elem.parentElement;
+const small = formcontrol.querySelector("small");
+
+small.innerText = "";
+/*small.innerHTML = '<i class="fa fa-check-circle"></i>';*/
+
+formcontrol.className = "form-control succes";
+}
+
+if (text2value === "") {
+  let message = "Votre Numero ne peut être vide";
+  setError(text2, message);
+} else {
+  setSucces(text2);
+}
+
+
+function setError(elem, message) {
+const formcontrol = elem.parentElement;
+const small = formcontrol.querySelector("small");
+/*small.innerHTML = "";*/
+
+small.innerText = message;
+
+formcontrol.className = "form-control error";
+}
+
+function setSucces(elem) {
+const formcontrol = elem.parentElement;
+const small = formcontrol.querySelector("small");
+
+small.innerText = "";
+/*small.innerHTML = '<i class="fa fa-check-circle"></i>';*/
+
+formcontrol.className = "form-control succes";
+}
+}
