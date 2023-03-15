@@ -5,10 +5,22 @@
 }
 body {
   background-color: lightgoldenrodyellow;
+  font-family: "Varela", sans-serif;
+}
+a {
+  display: none;
 }
 
 header {
   background-color: #f76c6c;
+  height: 70px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.356), 0 0 1rem rgba(0, 0, 0, 0.301);
+}
+h1 {
+  font-size: 1.6em;
+  padding: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .actu {
@@ -17,6 +29,10 @@ header {
 }
 .actu h2 {
   margin-bottom: 2rem;
+  background-color: #f76c6c;
+  width: 45%;
+  border-radius: 16px;
+  padding: 8px;
 }
 main {
   width: 100%;
@@ -29,3 +45,10 @@ main {
   height: auto;
 }
 /*nouveau css*/
+
+.resp h2 {
+  background-color: #f76c6c;
+  width: 63%;
+  border-radius: 16px;
+  padding: 8px;
+}
