@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-<<<<<<< HEAD
 
 :root {
 }
@@ -185,7 +184,8 @@ nav a:hover {
 }
 
 /* CONTACT */
-=======
+
+/*nouveau css*/
 body {
   background-color: lightgoldenrodyellow;
 }
@@ -212,4 +212,3 @@ main {
   height: auto;
 }
 /*nouveau css*/
->>>>>>> dd35cfb9585d6cb9c550dd3e9b4cdf91ff9e1f79

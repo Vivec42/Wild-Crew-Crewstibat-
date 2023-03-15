@@ -1,3 +1,4 @@
+// BURGER MENU
 function burgerMenu() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
@@ -6,7 +7,9 @@ function burgerMenu() {
     x.style.display = "block";
   }
 }
+// BURGER MENU
 
+// CONTACT
 const form = document.querySelector("#form");
 const username = document.querySelector("#username");
 const email = document.querySelector("#email");
@@ -83,3 +86,4 @@ function setSucces(elem) {
 
   formcontrol.className = "form-control succes";
 }
+// CONTACT
